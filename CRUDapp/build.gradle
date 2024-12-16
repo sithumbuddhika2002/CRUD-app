@@ -1,0 +1,5 @@
+plugins {
+    // Disable application of Android plugin at the top level
+    alias(libs.plugins.android.application) apply false
+    alias(libs.plugins.google.gms.google.services) apply false
+}
